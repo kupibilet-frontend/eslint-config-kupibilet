@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'eslint-config-airbnb',
+  extends: 'airbnb',
   rules: {
     semi: [2, 'never'],
     quotes: [2, 'backtick'],
