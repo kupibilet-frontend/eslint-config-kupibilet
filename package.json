@@ -16,11 +16,12 @@
     "url": "https://github.com/kupibiletdev/eslint-config-kupibilet/issues"
   },
   "homepage": "https://github.com/kupibiletdev/eslint-config-kupibilet#readme",
-  "devDependencies": {
+  "peerDependencies": {
     "eslint": "^2.13.1",
     "eslint-config-airbnb": "^9.0.1",
     "eslint-plugin-import": "^1.11.1",
     "eslint-plugin-jsx-a11y": "^1.5.5",
-    "eslint-plugin-react": "^5.2.2"
+    "eslint-plugin-react": "^5.2.2",
+    "babel-eslint": "^6.1.2"
   }
 }
