@@ -15,5 +15,5 @@
   "homepage": "https://github.com/kupibiletdev/eslint-config-kupibilet#readme",
   "dependencies": {
     "eslint-config-airbnb": "^9.0.1"
-  },
+  }
 }
