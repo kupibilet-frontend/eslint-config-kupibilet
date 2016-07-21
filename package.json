@@ -15,5 +15,8 @@
   "homepage": "https://github.com/kupibiletdev/eslint-config-kupibilet#readme",
   "dependencies": {
     "eslint-config-airbnb": "^9.0.1"
+  },
+  "bin": {
+    "eslint-update": "./install.sh"
   }
 }
