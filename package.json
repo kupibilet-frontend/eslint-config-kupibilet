@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-kupibilet",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Kupibilet's ESLint config, based on airbnb config",
   "main": "index.js",
   "repository": {
