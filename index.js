@@ -10,5 +10,6 @@ module.exports = {
     'arrow-parens': [2, 'always'],
     'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
     'no-mixed-operators': 0,
+    'array-callback-return': 0,
   },
 }
