@@ -3,6 +3,9 @@
   "version": "4.0.2",
   "description": "Kupibilet's ESLint config, based on airbnb config",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kupibiletdev/eslint-config-kupibilet.git"
