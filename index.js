@@ -11,5 +11,9 @@ module.exports = {
     'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
     'no-mixed-operators': 0,
     'array-callback-return': 0,
+    'import/no-extraneous-dependencies': [2, {
+      devDependencies: true,
+      optionalDependencies: true,
+    }],
   },
 }
