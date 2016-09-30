@@ -18,12 +18,12 @@
   "homepage": "https://github.com/kupibiletdev/eslint-config-kupibilet#readme",
   "dependencies": {
     "babel-eslint": "^7.0.0",
-    "eslint": "^3.5.0",
+    "eslint": "^3.6.1",
     "eslint-config-airbnb": "^12.0.0",
     "eslint-import-resolver-webpack": "^0.6.0",
-    "eslint-plugin-import": "kupibiletdev/eslint-plugin-import",
+    "eslint-plugin-import": "^1.16.0",
     "eslint-plugin-jsx-a11y": "^2.2.2",
-    "eslint-plugin-react": "^6.2.1"
+    "eslint-plugin-react": "^6.3.0"
   },
   "bin": {
     "eslint-update": "./install.sh"
