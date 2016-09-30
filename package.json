@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/kupibiletdev/eslint-config-kupibilet#readme",
   "dependencies": {
-    "babel-eslint": "^6.1.0",
+    "babel-eslint": "^7.0.0",
     "eslint": "^3.5.0",
     "eslint-config-airbnb": "^11.0.0",
     "eslint-import-resolver-webpack": "^0.6.0",
