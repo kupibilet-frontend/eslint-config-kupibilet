@@ -1,5 +1,7 @@
 # ESLint shareable config for kupibilet.ru
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kupibilet-frontend/eslint-config-kupibilet.svg)](https://greenkeeper.io/)
+
 [![NPM version][npm-img]][npm-url]
 [![Build Status][travis-img]][travis-url]
 [![Dependency Status][daviddm-img]][daviddm-url]
