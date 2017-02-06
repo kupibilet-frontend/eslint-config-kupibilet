@@ -1,11 +1,8 @@
 # ESLint shareable config for kupibilet.ru
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/kupibilet-frontend/eslint-config-kupibilet.svg)](https://greenkeeper.io/)
-
 [![NPM version][npm-img]][npm-url]
 [![Build Status][travis-img]][travis-url]
-[![Dependency Status][daviddm-img]][daviddm-url]
-[![devDependency Status][daviddm-dev-img]][daviddm-dev-url]
+[![Greenkeeper Status][greenkeeper-img]][greenkeeper-url]
 
 ## Install
 
@@ -17,11 +14,9 @@ npm i eslint-config-kupibilet --save-dev
 
 Add `"extends": "kupibilet"` to your .eslintrc
 
-[travis-img]: https://travis-ci.org/kupibiletdev/eslint-config-kupibilet.svg
-[travis-url]: https://travis-ci.org/kupibiletdev/eslint-config-kupibilet
-[daviddm-img]: https://david-dm.org/kupibiletdev/eslint-config-kupibilet.svg
-[daviddm-url]: https://david-dm.org/kupibiletdev/eslint-config-kupibilet
-[daviddm-dev-img]: https://david-dm.org/kupibiletdev/eslint-config-kupibilet/dev-status.svg
-[daviddm-dev-url]: https://david-dm.org/kupibiletdev/eslint-config-kupibilet#info=devDependencies)
+[travis-img]: https://travis-ci.org/kupibilet-frontend/eslint-config-kupibilet.svg
+[travis-url]: https://travis-ci.org/kupibilet-frontend/eslint-config-kupibilet
 [npm-img]: https://badge.fury.io/js/eslint-config-kupibilet.svg
 [npm-url]: https://www.npmjs.com/package/eslint-config-kupibilet
+[greenkeeper-img]: https://badges.greenkeeper.io/kupibilet-frontend/eslint-config-kupibilet.svg
+[greenkeeper-url]: https://greenkeeper.io/
