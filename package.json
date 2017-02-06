@@ -4,7 +4,7 @@
   "description": "Kupibilet's ESLint config, based on airbnb config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "postversion": "git push --follow-tags"
   },
   "repository": {
     "type": "git",
