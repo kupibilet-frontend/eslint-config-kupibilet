@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kupibiletdev/eslint-config-kupibilet.git"
+    "url": "git+https://github.com/kupibilet-frontend/eslint-config-kupibilet.git"
   },
   "author": "Kupibilet team (http://kupibilet.ru)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kupibiletdev/eslint-config-kupibilet/issues"
+    "url": "https://github.com/kupibilet-frontend/eslint-config-kupibilet/issues"
   },
-  "homepage": "https://github.com/kupibiletdev/eslint-config-kupibilet#readme",
+  "homepage": "https://github.com/kupibilet-frontend/eslint-config-kupibilet#readme",
   "dependencies": {
     "babel-eslint": "^7.0.0",
     "eslint": "^3.6.1",
@@ -24,8 +24,5 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.3.0"
-  },
-  "bin": {
-    "eslint-update": "./install.sh"
   }
 }
