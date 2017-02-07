@@ -13,6 +13,8 @@ module.exports = {
     'react/forbid-prop-types': 0,
     'no-mixed-operators': 0,
     'array-callback-return': 0,
+    'global-require': 0,
+    'import/no-dynamic-require': 0,
     'import/no-extraneous-dependencies': [2, {
       devDependencies: true,
       optionalDependencies: true,
