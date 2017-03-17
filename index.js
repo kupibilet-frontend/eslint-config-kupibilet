@@ -11,6 +11,7 @@ module.exports = {
     'arrow-parens': [2, 'always'],
     'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
     'react/forbid-prop-types': 0,
+    'react/prefer-stateless-function': [1, { 'ignorePureComponents': true }],
     'no-mixed-operators': 0,
     'array-callback-return': 0,
     'global-require': 0,
