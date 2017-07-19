@@ -3,9 +3,8 @@ node_js:
 - stable
 deploy:
   provider: npm
-  email: max@kupibilet.ru
-  api_key:
-    secure: nzsd8F0S8cIQ2tuSQF8WlKxXkK0Ixrq4GIGxOL05AZUhyrFOTESTDOQtrXkckVeDYLAB9NFuJYCCyFGNVH6wMP0OxGUBdV32RZstf2bS1OnCslSPSfrlkbWPsPfGFMuvsrqIQq54ALATcXzR/8nHR1a3rbcXrwnMCVQUfwsOAeEibZ83yKVV97GWuZlLb0QWVl28miDyTBFSjF1lJll6m369o51vuLRtRkXlJ66TqItM28P659qC9KVi8lGwo6+oUAIvvGAJqZnFT4JG/zAbyQA4fyrYJC73LF200sAr+lU2L/kiqEJ/sN8Bwrk93pZLke7rMsR99w+kiM/DRvlYb8kA6ttlXdWeXo++wXilQhIdwTes6ayeJ9FcXwt5hJUe3jNwbM4hrU0yJhE0x7HPMJYoybWNkiQQv5YknH8QzFOc/vQsye73x86jplfKIYgn2j6CwBhDOWN+mgeeYoZYcOLf2BKoby8yn1TgbidzpEi0k97kxT+anQiK98D/DuZHWXCdLMn77Vzg67QqrZ1ZlNXWZ4xxisV69jSGPpS6TV8iDxSAYeTsJbLi+0gSI0knBaYoNjyIf+ffSAnIYVOZrzbRtShkouKm6Xl0Pme2IfJv/VmVSDqkS/Hb+6zOwCopocTrPJBwNVYYEtN3LOhCuwGnjQaCBH8V2KNXeR7pqXE=
+  email: v7rulnik@gmail.com
+  api_key: $NPM_TOKEN
   on:
     branch: master
     tags: true
