@@ -29,4 +29,7 @@ module.exports = {
       'WithStatement',
     ],
   },
+  globals: {
+    Generator: true
+  },
 }
