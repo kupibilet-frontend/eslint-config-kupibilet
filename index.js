@@ -10,6 +10,7 @@ module.exports = {
     'func-names': 0,
     'no-underscore-dangle': 0,
     'arrow-parens': [2, 'always'],
+    'arrow-body-style': 0,
     'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
     'react/forbid-prop-types': 0,
     'react/prefer-stateless-function': [1, { 'ignorePureComponents': true }],
