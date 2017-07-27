@@ -8,6 +8,7 @@ module.exports = {
   rules: {
     semi: [2, 'never'],
     'func-names': 0,
+    'no-underscore-dangle': 0,
     'arrow-parens': [2, 'always'],
     'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
     'react/forbid-prop-types': 0,
