@@ -1,6 +1,8 @@
 language: node_js
 node_js:
 - stable
+script:
+  - npm test
 deploy:
   provider: npm
   email: v7rulnik@gmail.com

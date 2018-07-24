@@ -32,6 +32,13 @@ module.exports = {
       'LabeledStatement',
       'WithStatement',
     ],
+    'react/jsx-wrap-multilines': ['error', {
+      declaration: 'parens',
+      assignment: 'parens',
+      return: 'parens',
+      arrow: 'parens',
+    }],
+    'operator-linebreak': 'off',
   },
   globals: {
     Generator: true
