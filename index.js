@@ -25,6 +25,8 @@ module.exports = {
       optionalDependencies: true,
     }],
     'no-plusplus': 0,
+    'no-implicit-coercion': 2,
+    'no-new-wrappers': 2,
     'jsx-a11y/no-static-element-interactions': 0,
     'no-restricted-syntax': [
       'error',
