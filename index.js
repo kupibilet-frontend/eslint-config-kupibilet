@@ -7,6 +7,7 @@ module.exports = {
   },
   rules: {
     semi: [2, 'never'],
+    quotes: [2, 'single', { allowTemplateLiterals: true }],
     'func-names': 0,
     'no-underscore-dangle': 0,
     'arrow-parens': [2, 'always'],
