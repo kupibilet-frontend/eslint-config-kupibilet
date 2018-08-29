@@ -25,7 +25,12 @@ module.exports = {
       optionalDependencies: true,
     }],
     'no-plusplus': 0,
-    'no-implicit-coercion': 2,
+    'no-implicit-coercion': [2, {
+      boolean: true,
+      number: true,
+      string: false,
+      allow: [],
+    }],
     'no-new-wrappers': 2,
     'jsx-a11y/no-static-element-interactions': 0,
     'no-restricted-syntax': [
