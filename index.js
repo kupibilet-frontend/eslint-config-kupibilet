@@ -25,7 +25,7 @@ module.exports = {
       optionalDependencies: true,
     }],
     'no-plusplus': 0,
-    'no-implicit-coercion': [2, {
+    'no-implicit-coercion': [1, {
       boolean: true,
       number: true,
       string: false,
