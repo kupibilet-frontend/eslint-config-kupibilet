@@ -31,7 +31,7 @@ module.exports = {
       string: false,
       allow: [],
     }],
-    'no-new-wrappers': 2,
+    'no-new-wrappers': 1,
     'jsx-a11y/no-static-element-interactions': 0,
     'no-restricted-syntax': [
       'error',
