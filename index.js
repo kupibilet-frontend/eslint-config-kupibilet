@@ -47,6 +47,9 @@ module.exports = {
       arrow: 'parens',
     }],
     'operator-linebreak': 'off',
+    'no-console': [2, {
+      allow: ['warn', 'error']
+    }],
   },
   globals: {
     Generator: true
