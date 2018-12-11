@@ -25,6 +25,7 @@ module.exports = {
       devDependencies: true,
       optionalDependencies: true,
     }],
+    'import/prefer-default-export': 'off',
     'no-plusplus': 0,
     'no-implicit-coercion': [1, {
       boolean: true,
