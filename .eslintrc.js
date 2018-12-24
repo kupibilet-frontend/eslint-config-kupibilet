@@ -1,4 +1,5 @@
 const rules = [
+  './rules/async-await-promises.yml',
   './rules/codestyle.yml',
   './rules/functions.yml',
   './rules/imports.yml',
