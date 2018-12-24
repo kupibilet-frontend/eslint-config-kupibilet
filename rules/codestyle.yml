@@ -1,0 +1,31 @@
+rules:
+  semi:
+    - error
+    - never
+  quotes:
+    - error
+    - single
+    - allowTemplateLiterals: true
+  no-mixed-operators: off
+  no-underscore-dangle: off
+  no-prototype-builtins: off
+  no-plusplus: off
+  no-implicit-coercion:
+    - warn
+    -
+      boolean: true
+      number: true
+      string: false
+  global-require: off
+  no-new-wrappers: warn
+  no-restricted-syntax:
+    - error
+    - ForInStatement
+    - LabeledStatement
+    - WithStatement
+  operator-linebreak: off
+  no-console:
+    - warn
+    - allow:
+      - warn
+      - error

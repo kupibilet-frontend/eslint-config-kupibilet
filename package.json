@@ -2,9 +2,15 @@
   "name": "eslint-config-kupibilet",
   "version": "10.1.3",
   "description": "Kupibilet's ESLint config, based on airbnb config",
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "scripts": {
-    "postversion": "git push --follow-tags"
+    "postversion": "git push --follow-tags",
+    "test": "jest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm test"
+    }
   },
   "repository": {
     "type": "git",
@@ -22,7 +28,11 @@
     "eslint-config-airbnb": "^17.0.0",
     "eslint-import-resolver-webpack": "^0.9.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-react": "^7.11.1",
-    "eslint-plugin-jsx-a11y": "^6.0.3"
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "devDependencies": {
+    "husky": "^1.2.1",
+    "jest": "^23.6.0"
   }
 }

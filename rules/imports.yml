@@ -1,0 +1,8 @@
+rules:
+  import/no-dynamic-require: off
+  import/no-extraneous-dependencies:
+    - error
+    -
+      devDependencies: true
+      optionalDependencies: true
+  import/prefer-default-export: off

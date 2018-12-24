@@ -1,0 +1,8 @@
+rules:
+  arrow-parens:
+    - error
+    - always
+  arrow-body-style: off
+  array-callback-return: off
+  consistent-return: off
+  func-names: off
