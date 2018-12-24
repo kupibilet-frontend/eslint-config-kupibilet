@@ -6,6 +6,18 @@ rules:
     - error
     - single
     - allowTemplateLiterals: true
+  object-curly-newline:
+    - error
+    -
+      minProperties: 8
+      multiline: true
+      consistent: true
+  # Allow camelcase for backend requests body and responses
+  camelcase:
+    - error
+    -
+      properties: never
+      ignoreDestructuring: true
   no-mixed-operators: off
   no-underscore-dangle: off
   no-prototype-builtins: off
