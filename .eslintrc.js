@@ -9,14 +9,23 @@ const rules = [
 module.exports = {
   extends: [
     'airbnb',
+    'plugin:flowtype/recommended',
     ...rules.map(require.resolve),
   ],
   parser: 'babel-eslint',
+  plugins: [
+    'flowtype',
+  ],
   env: {
     browser: true,
     jest: true,
   },
   globals: {
     Generator: true,
+  },
+  settings: {
+    flowtype: {
+      onlyFilesWithFlowAnnotation: true,
+    },
   },
 }
