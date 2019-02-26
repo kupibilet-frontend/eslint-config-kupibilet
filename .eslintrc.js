@@ -4,6 +4,7 @@ const rules = [
   './rules/functions.yml',
   './rules/imports.yml',
   './rules/react-jsx.yml',
+  './rules/flow.yml',
 ]
 
 module.exports = {
