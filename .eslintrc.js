@@ -10,7 +10,6 @@ const rules = [
 module.exports = {
   extends: [
     'airbnb',
-    'plugin:flowtype/recommended',
     ...rules.map(require.resolve),
   ],
   parser: 'babel-eslint',

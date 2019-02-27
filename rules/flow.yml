@@ -1,2 +1,5 @@
+extends:
+  - plugin:flowtype/recommended
+
 rules:
   flowtype/no-types-missing-file-annotation: off
