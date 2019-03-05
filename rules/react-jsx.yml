@@ -5,6 +5,9 @@ rules:
       - .js
       - .jsx
   react/forbid-prop-types: off
+  # Following rule may be disabled because it warns about PureComponent without props usage
+  # See https://github.com/yannickcr/eslint-plugin-react/issues/1773#issuecomment-452298243
+  # https://github.com/yannickcr/eslint-plugin-react/issues/968#issuecomment-329392235
   react/prefer-stateless-function:
     - warn
     - ignorePureComponents: true
