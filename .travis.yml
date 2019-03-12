@@ -1,6 +1,7 @@
 language: node_js
 node_js:
-- stable
+  # https://stackoverflow.com/a/55060832/10148424
+  - "11.10.1"
 script:
   - npm test
 deploy:
