@@ -20,3 +20,12 @@ Add `"extends": "kupibilet"` to your .eslintrc
 [npm-url]: https://www.npmjs.com/package/eslint-config-kupibilet
 [greenkeeper-img]: https://badges.greenkeeper.io/kupibilet-frontend/eslint-config-kupibilet.svg
 [greenkeeper-url]: https://greenkeeper.io/
+
+## TODO
+
+Добавили линтинг flow. Для того чтобы данное нововведение прошло
+менее болезненно, сделали все ошибки просто предупреждениями.
+
+Необходимо из файла `rules/flow.yml` убрать строки,
+которыми мы перетираем правила из рекомендованного конфига,
+на ошибки

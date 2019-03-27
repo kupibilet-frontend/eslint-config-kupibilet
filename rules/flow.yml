@@ -3,3 +3,9 @@ extends:
 
 rules:
   flowtype/no-types-missing-file-annotation: off
+  flowtype/boolean-style: ["warn", "boolean"]
+  flowtype/generic-spacing: ["warn", "never"]
+  flowtype/space-after-type-colon: ["warn", "always"]
+  flowtype/space-before-generic-bracket: ["warn", "never"]
+  flowtype/space-before-type-colon: ["warn", "never"]
+  flowtype/union-intersection-spacing: ["warn", "always"]

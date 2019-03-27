@@ -2,6 +2,10 @@ const { CLIEngine } = require('eslint')
 
 const cli = new CLIEngine({ ignore: false })
 
+function getWarningsCount(messages) {
+  return messages.filter(({ severity }) => severity === 1).length
+}
+
 const invalidFlowTypeDefinition = `
 /* eslint-disable no-console */
 // @flow
@@ -50,11 +54,13 @@ console.log(a, b)
 
 test('Lints invalid flow type', () => {
   const { results } = cli.executeOnText(invalidFlowTypeDefinition)
-  expect(results[0].messages).toHaveLength(1)
+
+  expect(getWarningsCount(results[0].messages)).toBe(1)
 })
 
 test('Flow does not throw errors if there are no errors', () => {
   const { results } = cli.executeOnText(validFlowTypeDefinition)
+
   expect(results[0].messages).toHaveLength(0)
 })
 
