@@ -36,5 +36,15 @@
   "devDependencies": {
     "husky": "^1.2.1",
     "jest": "^24.4.0"
+  },
+  "resolutions": {
+    "@babel/traverse": "7.4.4",
+    "@babel/types": "7.4.4",
+    "@babel/core": "7.4.4",
+    "@babel/generator": "7.4.4",
+    "@babel/helper-split-export-declaration": "7.4.4",
+    "@babel/helpers": "7.4.4",
+    "@babel/parser": "7.4.4",
+    "@babel/template": "7.4.4"
   }
 }
