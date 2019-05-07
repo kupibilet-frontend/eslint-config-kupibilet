@@ -35,9 +35,18 @@ rules:
     - ForInStatement
     - LabeledStatement
     - WithStatement
-  operator-linebreak: off
+  operator-linebreak:
+    - warn
+    - before
+    - overrides:
+        "=": none
+        "==": none
+        "===": none
   no-console:
     - warn
     - allow:
       - warn
       - error
+  multiline-ternary:
+    - warn
+    - always-multiline
