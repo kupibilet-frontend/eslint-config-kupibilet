@@ -1,10 +1,7 @@
 const { CLIEngine } = require('eslint')
+const getWarningsCount = require('../helpers/getWarningsCount')
 
 const cli = new CLIEngine({ ignore: false })
-
-function getWarningsCount(messages) {
-  return messages.filter(({ severity }) => severity === 1).length
-}
 
 const invalidFlowTypeDefinition = `
 /* eslint-disable no-console */

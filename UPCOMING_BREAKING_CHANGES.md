@@ -1,4 +1,6 @@
 ### В версии 11.0.0 эти `warn` станут `error`:
+* `operator-linebreak`
+* `multiline-ternary`
 * `no-async-promise-executor`
 * `promise/catch-or-return`
 * `promise/no-return-wrap`
