@@ -9,7 +9,7 @@ rules:
   object-curly-newline:
     - error
     -
-      minProperties: 8
+      minProperties: 6
       multiline: true
       consistent: true
   # Allow camelcase for backend requests body and responses
