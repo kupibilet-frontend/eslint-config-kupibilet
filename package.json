@@ -5,7 +5,8 @@
   "main": ".eslintrc.js",
   "scripts": {
     "postversion": "git push --follow-tags",
-    "test": "jest"
+    "test": "jest",
+    "snyk": "snyk test --dev --severity-threshold=medium"
   },
   "husky": {
     "hooks": {
@@ -28,13 +29,14 @@
     "eslint-config-airbnb": "17.0.0",
     "eslint-import-resolver-webpack": "0.9.0",
     "eslint-plugin-flowtype": "3.4.2",
-    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-import": "2.17.3",
     "eslint-plugin-jsx-a11y": "6.0.3",
     "eslint-plugin-promise": "4.0.1",
     "eslint-plugin-react": "7.11.1"
   },
   "devDependencies": {
     "husky": "^1.2.1",
-    "jest": "^24.4.0"
+    "jest": "^24.4.0",
+    "snyk": "^1.171.1"
   }
 }
