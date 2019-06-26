@@ -5,6 +5,7 @@ const rules = [
   './rules/imports.yml',
   './rules/react-jsx.yml',
   './rules/flow.yml',
+  './rules/lodash.yml',
 ]
 
 module.exports = {
@@ -15,6 +16,7 @@ module.exports = {
   parser: 'babel-eslint',
   plugins: [
     'flowtype',
+    'lodash',
   ],
   env: {
     browser: true,
