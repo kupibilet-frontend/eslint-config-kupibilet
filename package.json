@@ -7,11 +7,6 @@
     "postversion": "git push --follow-tags",
     "test": "jest"
   },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm test"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kupibilet-frontend/eslint-config-kupibilet.git"
@@ -35,7 +30,7 @@
     "eslint-plugin-react": "7.11.1"
   },
   "devDependencies": {
-    "husky": "^1.2.1",
+    "husky": "^2.7.0",
     "jest": "^24.8.0"
   },
   "resolutions": {
