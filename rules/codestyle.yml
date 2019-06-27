@@ -36,7 +36,7 @@ rules:
     - LabeledStatement
     - WithStatement
   operator-linebreak:
-    - warn
+    - error
     - before
     - overrides:
         "=": none
@@ -48,5 +48,5 @@ rules:
       - warn
       - error
   multiline-ternary:
-    - warn
+    - error
     - always-multiline

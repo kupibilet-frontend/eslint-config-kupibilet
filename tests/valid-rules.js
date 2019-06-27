@@ -1,6 +1,5 @@
 const { CLIEngine } = require('eslint')
 const path = require('path')
-const getWarningsCount = require('../helpers/getWarningsCount')
 
 const cli = new CLIEngine({ ignore: false })
 
@@ -41,17 +40,17 @@ test('ESLint should validate his own config', () => {
 
 test('ESLint warning if no newlines between the operands of a ternary expression', () => {
   const { results } = cli.executeOnText(invalidWithTernary)
-  expect(getWarningsCount(results[0].messages)).toBe(1)
+  expect(results[0].messages).toHaveLength(1)
 })
 
 describe('Eslint testing rule operator-linebreak', () => {
   test('warning if operators placing not at the beginning of the line ', () => {
     const { results } = cli.executeOnText(invalidLogicalOrPosition)
-    expect(getWarningsCount(results[0].messages)).toBe(1)
+    expect(results[0].messages).toHaveLength(1)
   })
 
   test('warning if is a line break after strict equality operator', () => {
     const { results } = cli.executeOnText(invalidComparisonOperatorPosition)
-    expect(getWarningsCount(results[0].messages)).toBe(1)
+    expect(results[0].messages).toHaveLength(1)
   })
 })

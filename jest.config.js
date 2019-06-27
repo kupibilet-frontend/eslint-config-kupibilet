@@ -11,5 +11,5 @@ module.exports = {
     // 'clover',
   ],
   modulePathIgnorePatterns: [`npm-cache`, `.yarn-cache`, `.cache`],
-  testMatch: ["**/tests/**/*.js?(x)"],
+  testMatch: ["**/tests/*.js?(x)"],
 };

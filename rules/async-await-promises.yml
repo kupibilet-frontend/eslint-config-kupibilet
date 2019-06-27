@@ -2,15 +2,15 @@ plugins:
   - promise
 
 rules:
-  no-async-promise-executor: warn
+  no-async-promise-executor: error
   # https://jakearchibald.com/2017/await-vs-return-vs-return-await/
   no-return-await: off
   # Avoid uneened async functions
   require-await: warn
   # https://github.com/xjamundx/eslint-plugin-promise/tree/master/docs/rules
-  promise/catch-or-return: warn
-  promise/no-return-wrap: warn
-  promise/no-nesting: warn
+  promise/catch-or-return: error
+  promise/no-return-wrap: error
+  promise/no-nesting: error
   # Potentially invalid syntax
   promise/no-new-statics: error
-  promise/prefer-await-to-then: warn
+  promise/prefer-await-to-then: error

@@ -1,11 +1,5 @@
-### В версии 11.0.0 эти `warn` станут `error`:
-* `operator-linebreak`
-* `multiline-ternary`
-* `no-async-promise-executor`
-* `promise/catch-or-return`
-* `promise/no-return-wrap`
-* `promise/no-nesting`
-* `promise/prefer-await-to-then`
+### В версии 12.0.0 эти `warn` станут `error`:
+* …
 
 ### В будущих версиях эти `warn` станут `error`:
 * `flowtype/*` (из файла rules/flow.yml убрать правила, перебивающий рекомендованный конфиг, с ошибок на ворнинги)
