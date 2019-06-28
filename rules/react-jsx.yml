@@ -21,7 +21,7 @@ rules:
   jsx-a11y/no-static-element-interactions: off
   # We want to use Link component in a way we like it
   jsx-a11y/anchor-is-valid: off
-  jsx-props-no-spreading:
+  react/jsx-props-no-spreading:
     - error
     - 
       html: enforce
