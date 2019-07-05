@@ -5,7 +5,9 @@
   "main": ".eslintrc.js",
   "scripts": {
     "postversion": "git push --follow-tags",
-    "test": "jest"
+    "test": "jest",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -27,7 +29,8 @@
     "eslint-plugin-jsx-a11y": "6.0.3",
     "eslint-plugin-lodash": "^5.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "7.14.2"
+    "eslint-plugin-react": "7.14.2",
+    "snyk": "^1.192.0"
   },
   "devDependencies": {
     "husky": "^2.7.0",
@@ -42,5 +45,6 @@
     "@babel/helpers": "7.4.4",
     "@babel/parser": "7.4.4",
     "@babel/template": "7.4.4"
-  }
+  },
+  "snyk": true
 }
