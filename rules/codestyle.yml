@@ -47,6 +47,3 @@ rules:
     - allow:
       - warn
       - error
-  multiline-ternary:
-    - error
-    - always-multiline
