@@ -5,13 +5,6 @@ const cli = new CLIEngine({ ignore: false })
 
 const emptySnippet = `// Test\n`
 
-const invalidWithTernary = `
-/* eslint-disable no-console */
-const elvisLives = Math.PI > 4
-  ? 'Да' : 'Нет'
-console.log(elvisLives)
-`
-
 const invalidLogicalOrPosition = `
 /* eslint-disable no-console */
 const tsoyLives = 1 > 0 ||
@@ -36,11 +29,6 @@ test('ESLint should start with valid config', () => {
 test('ESLint should validate his own config', () => {
   const { results } = cli.executeOnFiles([path.resolve(__dirname, '../.eslintrc.js')])
   expect(results[0].messages).toHaveLength(0)
-})
-
-test('ESLint warning if no newlines between the operands of a ternary expression', () => {
-  const { results } = cli.executeOnText(invalidWithTernary)
-  expect(results[0].messages).toHaveLength(1)
 })
 
 describe('Eslint testing rule operator-linebreak', () => {
