@@ -30,7 +30,7 @@
     "eslint-plugin-react": "7.14.2"
   },
   "devDependencies": {
-    "husky": "^2.7.0",
+    "husky": "^4.1.0",
     "jest": "^24.8.0"
   },
   "resolutions": {
